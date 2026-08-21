@@ -1,0 +1,22 @@
+# Memoria: suma 5 + 3 = 8 usando 3 celdas
+# cell0 = 5, cell1 = 3, cell2 = resultado
+
+Lumos Lumos Lumos Lumos Lumos
+Depulso
+Lumos Lumos Lumos
+Levioso
+Protego
+  Depulso Depulso
+  Lumos
+  Levioso Levioso
+  Nox
+Finite
+Depulso
+Protego
+  Depulso
+  Lumos
+  Levioso
+  Nox
+Finite
+Depulso
+Sonorus

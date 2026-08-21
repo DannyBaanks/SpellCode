@@ -1,0 +1,13 @@
+# Condición: si la entrada > 0 imprime 1, si no imprime 0
+# Protego/Finite es un while, así que hay que poner cell0=0
+# adentro para que no vuelva a entrar. El resultado va en cell1.
+
+Accio
+Protego
+  Depulso
+  Lumos
+  Levioso
+  Reparo
+Finite
+Depulso
+Sonorus
