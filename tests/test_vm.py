@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import unittest
 
-from spellcode.parser import parse, parse_full
+from spellcode.parser import parse_full
 from spellcode.vm import VM, SpellCodeError
 
 

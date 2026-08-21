@@ -4,8 +4,12 @@ from __future__ import annotations
 import unittest
 
 from spellcode.spells import (
-    SPELL_TABLE, SPELL_REGISTRY, FAMILIES,
-    CORE_SPELLS, resolve, OPCODE_TO_SPELL,
+    CORE_SPELLS,
+    FAMILIES,
+    OPCODE_TO_SPELL,
+    SPELL_REGISTRY,
+    SPELL_TABLE,
+    resolve,
 )
 
 

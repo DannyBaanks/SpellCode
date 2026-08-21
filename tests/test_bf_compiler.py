@@ -3,8 +3,8 @@ from __future__ import annotations
 
 import unittest
 
-from spellcode.bf_compiler import bf_to_spellcode
 from spellcode import run
+from spellcode.bf_compiler import bf_to_spellcode
 
 
 class BFCompilerTests(unittest.TestCase):
@@ -25,12 +25,6 @@ class BFCompilerTests(unittest.TestCase):
         self.assertEqual(tokens, ["Lumos", "Nox", "Sonorus"])
 
     def test_hello_world(self):
-        # Hello World en Brainfuck
-        bf = (
-            "++++++++[>++++++++<-]>+++++++++++++++.----.--.+++.---."
-            "------------.+++++.--------.+++.------.--------.-"
-        )
-        # Ajustar: usar el hello world estándar
         bf_hello = (
             "++++++++++[>+++++++>++++++++++>+++>+<<<<-]"
             ">++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++."

@@ -7,7 +7,7 @@ API pública:
 """
 from __future__ import annotations
 
-from .parser import parse, parse_full, tokenize, precompute_jumps, SpellCodeParseError
+from .parser import SpellCodeParseError, parse, parse_full, precompute_jumps, tokenize
 from .vm import VM, SpellCodeError
 
 __version__ = "0.1.0"

@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import unittest
 
-from spellcode.parser import tokenize, parse, SpellCodeParseError
+from spellcode.parser import SpellCodeParseError, parse, tokenize
 
 
 class TokenizeTests(unittest.TestCase):

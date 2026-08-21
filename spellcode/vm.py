@@ -27,12 +27,24 @@ operaciones de estado, sin romper la equivalencia con Brainfuck.
 from __future__ import annotations
 
 from .spells import (
+    OP_BREAK,
+    OP_DEC,
+    OP_DUP,
+    OP_HALT,
+    OP_INC,
+    OP_INPUT,
+    OP_LEFT,
+    OP_LOOP_END,
+    OP_LOOP_START,
+    OP_NOP,
+    OP_OUTPUT,
+    OP_POP_ADD,
+    OP_POP_DISCARD,
+    OP_POP_SUB,
+    OP_PUSH,
+    OP_RIGHT,
+    OP_ZERO,
     SPELL_TABLE,
-    OP_INC, OP_DEC, OP_RIGHT, OP_LEFT,
-    OP_LOOP_START, OP_LOOP_END,
-    OP_INPUT, OP_OUTPUT,
-    OP_PUSH, OP_POP_ADD, OP_POP_DISCARD, OP_DUP, OP_POP_SUB,
-    OP_ZERO, OP_NOP, OP_BREAK, OP_HALT,
 )
 
 TAPE_SIZE = 30_000

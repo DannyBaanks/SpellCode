@@ -13,9 +13,9 @@ import argparse
 import sys
 from pathlib import Path
 
-from . import parse, run
-from .vm import SpellCodeError
+from . import parse
 from .parser import SpellCodeParseError
+from .vm import SpellCodeError
 
 
 def main(argv: list[str] | None = None) -> int:

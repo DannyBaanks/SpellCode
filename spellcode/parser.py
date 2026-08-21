@@ -11,7 +11,7 @@ Formato de un programa:
 """
 from __future__ import annotations
 
-from .spells import resolve, OP_LOOP_START, OP_LOOP_END
+from .spells import OP_LOOP_END, OP_LOOP_START, resolve
 
 
 class SpellCodeParseError(Exception):
