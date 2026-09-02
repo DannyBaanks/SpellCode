@@ -1,0 +1,193 @@
+# FizzBuzz SpellCode 1..15 — tabla directa (demuestra Sonorus + Reparo)
+# Cada número/string se emite vía Reparo + Lumos*char + Sonorus
+# No usa MOD aquí (FizzBuzz vía tabla honesta), pero sí VM real tape/head/output
+# 1 -> 1
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+# 2 -> 2
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+# 3 -> Fizz
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+# 4 -> 4
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+# 5 -> Buzz
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+# 6 -> Fizz
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+# 7 -> 7
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+# 8 -> 8
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+# 9 -> Fizz
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+# 10 -> Buzz
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+# 11 -> 11
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+# 12 -> Fizz
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+# 13 -> 13
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+# 14 -> 14
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+# 15 -> FizzBuzz
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos 
+Sonorus
+AvadaKedavra

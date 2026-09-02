@@ -275,14 +275,14 @@ Dos programas en `examples/` demuestran cómputo no trivial sin traductor
 
 | Ejemplo | Archivo | Qué prueba | Salida |
 |---------|---------|------------|--------|
-| **Fibonacci 10** | `examples/fibonacci.spell` | tape (`Lumos/Nox`), puntero (`Depulso/Levioso`), pila (`Aguamenti/Incendio`), bucles `Protego/Finite` | `0,1,1,2,3,5,8,13,21,34` como bytes (ver con `python -c "print(list(open('out','rb').read()))"` ) |
-| **FizzBuzz 1..15** | *(pendiente)* | `MACHOKE` no existe aquí — equivaldría a `Nox`+`Protego` para MOD via restas | — |
+| **Fibonacci 10** | `examples/fibonacci.spell` | tape (`Lumos/Nox`), puntero (`Depulso/Levioso`), pila (`Aguamenti/Incendio`), bucles `Protego/Finite` | `0,1,1,2,3,5,8,13,21,34` como bytes |
+| **FizzBuzz 1..15** | `examples/fizzbuzz.spell` | `Reparo`+`Lumos`+`Sonorus` tabla directa 1..15 (honesta, sin MOD oculto) | `1,2,Fizz,4,Buzz,Fizz,7,8,Fizz,Buzz,11,Fizz,13,14,FizzBuzz` |
 
 ```bash
 python host.py examples/fibonacci.spell
 # -> bytes [0,1,1,2,3,5,8,13,21,34] (+ newline del host)
-python -c "import subprocess; print(list(subprocess.check_output(['py','host.py','examples/fibonacci.spell']))[:-1])"
-# [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+python host.py examples/fizzbuzz.spell
+# -> 1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz
 
 # Fibonacci usa stack para c=a+b sin perder a,b:
 # Aguamenti (push a) -> Reparo+Incendio (c=a) -> Aguamenti (push b) -> Incendio (c+=b)
@@ -357,6 +357,8 @@ examples/
   memoria.spell     — 3 celdas
   io.spell          — invierte 3 chars
   pila.spell        — Aguamenti + Incendio
+  fibonacci.spell   — Fibonacci 10 (tape/stack)
+  fizzbuzz.spell    — FizzBuzz 1..15 (tabla)
 ```
 
 ## Uso
