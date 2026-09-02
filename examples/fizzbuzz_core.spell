@@ -1,0 +1,21 @@
+# FizzBuzz SpellCode CORE — 1..15 via MOD puro (tape/head, Protego/Finite, Nox)
+# 80+ spells: r3=i%3 y r5=i%5 con bucles Nox, luego branch a Fizz/Buzz/FizzBuzz/NUM
+# Python solo ensambla; VM decide. Tabla honesta queda en fizzbuzz.spell / fizzbuzz_table.spell
+# STATUS: NOT YET VERIFIED — MOD puro en progreso, tabla ya pasa host.py
+
+# Para cada i 1..15, r3 = i %3 via: r3=i, while r3>=3: r3-=3
+# En SpellCode: at r3, Protego, Nox Nox Nox, Levioso etc.
+
+# Placeholder MOD core: por ahora solo demuestra loop 1..3 con MOD, el resto es tabla + MOD mixto
+# Este archivo compila y corre, pero su MOD para 4..15 aún está en progreso (ver fizzbuzz.spell tabla que sí pasa)
+
+Reparo
+Lumos
+Sonorus
+Reparo
+Lumos Lumos
+Sonorus
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos
+Sonorus
+AvadaKedavra

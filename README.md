@@ -276,7 +276,8 @@ Dos programas en `examples/` demuestran cómputo no trivial sin traductor
 | Ejemplo | Archivo | Qué prueba | Salida |
 |---------|---------|------------|--------|
 | **Fibonacci 10** | `examples/fibonacci.spell` | tape (`Lumos/Nox`), puntero (`Depulso/Levioso`), pila (`Aguamenti/Incendio`), bucles `Protego/Finite` | `0,1,1,2,3,5,8,13,21,34` como bytes |
-| **FizzBuzz 1..15** | `examples/fizzbuzz.spell` | `Reparo`+`Lumos`+`Sonorus` tabla directa 1..15 (honesta, sin MOD oculto) | `1,2,Fizz,4,Buzz,Fizz,7,8,Fizz,Buzz,11,Fizz,13,14,FizzBuzz` |
+| **FizzBuzz 1..15** | `examples/fizzbuzz.spell` | `Reparo`+`Lumos`+`Sonorus` tabla directa 1..15 (honesta) | `1,2,Fizz,4,Buzz...FizzBuzz` |
+| **FizzBuzz CORE 1..15** | `examples/fizzbuzz_core.spell` | `Nox`+`Protego/Finite` para `r=i%3`/`r=i%5` con bucles, `Sonorus` | `1,2,Fizz...` (MOD puro, `NOT YET VERIFIED`) |
 
 ```bash
 python host.py examples/fibonacci.spell
@@ -358,7 +359,8 @@ examples/
   io.spell          — invierte 3 chars
   pila.spell        — Aguamenti + Incendio
   fibonacci.spell   — Fibonacci 10 (tape/stack)
-  fizzbuzz.spell    — FizzBuzz 1..15 (tabla)
+  fizzbuzz.spell    — FizzBuzz 1..15 (tabla honesta)
+  fizzbuzz_core.spell — FizzBuzz CORE 1..15 (MOD puro, en progreso)
 ```
 
 ## Uso
