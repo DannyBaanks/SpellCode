@@ -112,8 +112,8 @@ Gemino
 AvadaKedavra
 """,
     "013_Expelliarmus.spell": """# 013 Expelliarmus — pop stack + sub from cell
-# PRE: cell=10, stack=[3]
-# POST: cell=7
+# PRE: cell=13, stack=[10]
+# POST: cell=3 (13-10), stack=[]
 Lumos
 Lumos
 Lumos
@@ -149,8 +149,8 @@ Muffliato
 AvadaKedavra
 """,
     "016_Stupefy.spell": """# 016 Stupefy — break innermost loop
-# PRE: loop 5 veces, break en 1ª
-# POST: sale del loop, output 0
+# PRE: cell=5, loop 5 veces, break en 1ª
+# POST: cell=5, sale del loop sin completar Nox
 Lumos
 Lumos
 Lumos
@@ -169,21 +169,65 @@ AvadaKedavra
 """,
 }
 
+def _check_post(fname: str, vm: VM):
+    """Verifica POST del corpus contra estado real (no solo 'no lanzó')."""
+    # Checks basados en los comentarios PRE/POST de cada flashcard
+    if fname == "001_Lumos.spell":
+        assert vm.tape[0] == 1, f"Lumos POST cell=1, got {vm.tape[0]}"
+    elif fname == "002_Nox.spell":
+        assert vm.tape[0] == 0, f"Nox POST cell=0, got {vm.tape[0]}"
+    elif fname == "003_Depulso.spell":
+        assert vm.head == 1, f"Depulso POST head=1, got {vm.head}"
+    elif fname == "004_Levioso.spell":
+        assert vm.head == 0, f"Levioso POST head=0, got {vm.head}"
+    elif fname == "005_Protego.spell":
+        assert vm.tape[0] == 0, "Protego debe saltar bloque"
+    elif fname == "006_Finite.spell":
+        assert vm.tape[0] == 0, "Finite POST cell=0 tras 1 iter"
+    elif fname == "007_Accio.spell":
+        assert vm.tape[0] == 65, f"Accio POST cell=65, got {vm.tape[0]}"
+    elif fname == "008_Sonorus.spell":
+        assert vm.output == b"\x01", f"Sonorus output b'\\x01', got {vm.output!r}"
+    elif fname == "009_Aguamenti.spell":
+        assert vm.stack == [3], f"Aguamenti stack [3], got {vm.stack}"
+    elif fname == "010_Incendio.spell":
+        assert vm.tape[0] == 5, f"Incendio POST cell=5, got {vm.tape[0]}"
+        assert vm.stack == [], "Incendio debe consumir pila"
+    elif fname == "011_Evanesco.spell":
+        assert vm.stack == [], f"Evanesco POST stack [], got {vm.stack}"
+    elif fname == "012_Gemino.spell":
+        assert vm.stack == [4,4], f"Gemino POST [4,4], got {vm.stack}"
+    elif fname == "013_Expelliarmus.spell":
+        assert vm.tape[0] == 3, f"Expelliarmus POST cell=3 (13-10), got {vm.tape[0]}"
+        assert vm.stack == [], f"Expelliarmus POST stack [], got {vm.stack}"
+    elif fname == "014_Reparo.spell":
+        assert vm.tape[0] == 0, f"Reparo POST cell=0, got {vm.tape[0]}"
+    elif fname == "015_Muffliato.spell":
+        pass  # NOP
+    elif fname == "016_Stupefy.spell":
+        assert vm.tape[0] == 5, f"Stupefy POST cell=5 (break antes de Nox), got {vm.tape[0]}"
+    elif fname == "017_AvadaKedavra.spell":
+        assert vm.halted, "AvadaKedavra debe halt"
+    else:
+        pass
+
 def main():
     fails = []
     for fname, src in sorted(CORPUS.items()):
         path = OUT / fname
         path.write_text(src, encoding="utf-8")
-        # verificar parse + run
+        # verificar parse + run + POST
         try:
             tokens, jumps, breaks = parse_full(src)
             vm = VM()
-            # Para Accio, necesita input
             inp = b"A" if "Accio" in fname else b""
             vm.reset(tokens, jumps, inp, breaks)
             vm.run()
+            _check_post(fname, vm)
+        except AssertionError as e:
+            fails.append((fname, f"POST fail: {e}"))
         except Exception as e:
-            fails.append((fname, str(e)[:120]))
+            fails.append((fname, str(e)[:180]))
 
     # Caso especial: Sonorus corpus tiene 2 entradas 008, la segunda sobreescribe la primera — regenera correcta
     # Asegura 17 archivos

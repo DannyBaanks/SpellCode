@@ -1,6 +1,6 @@
 # 013 Expelliarmus — pop stack + sub from cell
-# PRE: cell=10, stack=[3]
-# POST: cell=7
+# PRE: cell=13, stack=[10]
+# POST: cell=3 (13-10), stack=[]
 Lumos
 Lumos
 Lumos

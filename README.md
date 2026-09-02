@@ -258,6 +258,7 @@ Separación limpia:
 ```bash
 python -m unittest discover -s tests -v
 python host.py --all          # 17/17 corpus
+python gen_17_spell.py        # regenera y verifica POST (tape/stack/output) de los 17
 ```
 
 57 tests cubren:
@@ -265,6 +266,7 @@ python host.py --all          # 17/17 corpus
 - VM: cada hechizo individual, bucles, pila, estado, control
 - Compilador BF→SpellCode: mapeo, Hello World, cat, suma
 - Tabla de hechizos: resolución, aliases, familias
+- Corpus: 17/17 `corpus/*.spell` con **POST auto-verificado** (`gen_17_spell.py` comprueba `tape/stack/output` contra `# POST:`; no solo “no lanzó”)
 
 ### Ejemplos funcionales (no maqueta)
 
