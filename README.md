@@ -266,6 +266,28 @@ python host.py --all          # 17/17 corpus
 - Compilador BF→SpellCode: mapeo, Hello World, cat, suma
 - Tabla de hechizos: resolución, aliases, familias
 
+### Ejemplos funcionales (no maqueta)
+
+Dos programas en `examples/` demuestran cómputo no trivial sin traductor
+(la misma idea que en PokéCode/DotaCode/DuelCode, cada uno en su dominio):
+
+| Ejemplo | Archivo | Qué prueba | Salida |
+|---------|---------|------------|--------|
+| **Fibonacci 10** | `examples/fibonacci.spell` | tape (`Lumos/Nox`), puntero (`Depulso/Levioso`), pila (`Aguamenti/Incendio`), bucles `Protego/Finite` | `0,1,1,2,3,5,8,13,21,34` como bytes (ver con `python -c "print(list(open('out','rb').read()))"` ) |
+| **FizzBuzz 1..15** | *(pendiente)* | `MACHOKE` no existe aquí — equivaldría a `Nox`+`Protego` para MOD via restas | — |
+
+```bash
+python host.py examples/fibonacci.spell
+# -> bytes [0,1,1,2,3,5,8,13,21,34] (+ newline del host)
+python -c "import subprocess; print(list(subprocess.check_output(['py','host.py','examples/fibonacci.spell']))[:-1])"
+# [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+
+# Fibonacci usa stack para c=a+b sin perder a,b:
+# Aguamenti (push a) -> Reparo+Incendio (c=a) -> Aguamenti (push b) -> Incendio (c+=b)
+```
+
+> **Nota I/O:** SpellCode solo tiene `Sonorus` (byte crudo). Por eso Fibonacci emite bytes `0..34`, no la cadena decimal `"13"` como `MAGIKARP` de PokéCode. La computación es la misma (memoria+pila+bucles), solo cambia el canal de salida.
+
 ## TESTURINGS
 
 SpellCode es **Turing-completo**. La demostración está en

@@ -1,0 +1,51 @@
+# Fibonacci SpellCode — 10 terminos (0 1 1 2 3 5 8 13 21 34)
+# Demuestra VM completa: tape, head, stack y bucles Protego/Finite
+# Sin traductor externo. Cada termino se emite como byte crudo (0..34)
+# Para ver como numeros: python host.py examples/fibonacci.spell | od -An -tu1
+# O con Python: data=open('out','rb').read(); print(list(data))
+# Patrones: Reparo=zero, Lumos=inc, Nox=dec, Depulso/Levioso=ptr, Sonorus=out, Aguamenti/Incendio=push/pop+add
+# Tape: [0]=a [1]=b [2]=contador [4]=c  Stack: para sumas
+
+# --- INIT ---
+Reparo
+Depulso
+Reparo
+Lumos
+Depulso
+Reparo
+Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos Lumos
+Depulso Depulso
+Reparo
+
+# --- LOOP (contador en celda 2) ---
+Levioso Levioso
+Protego
+  Levioso Levioso
+  Sonorus
+  Aguamenti
+  Depulso Depulso Depulso Depulso
+  Reparo
+  Incendio
+  Levioso Levioso Levioso
+  Aguamenti
+  Depulso Depulso Depulso
+  Incendio
+  Levioso Levioso Levioso Levioso
+  Reparo
+  Depulso
+  Aguamenti
+  Levioso
+  Incendio
+  Depulso
+  Reparo
+  Depulso Depulso Depulso
+  Aguamenti
+  Levioso Levioso Levioso
+  Incendio
+  Depulso Depulso Depulso
+  Reparo
+  Levioso Levioso
+  Nox
+Finite
+Levioso Levioso
+AvadaKedavra
