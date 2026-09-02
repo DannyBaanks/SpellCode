@@ -1,0 +1,6 @@
+# 008 Sonorus — output cell
+# PRE: cell=1
+# POST: output b'\x01'
+Lumos
+Sonorus
+AvadaKedavra

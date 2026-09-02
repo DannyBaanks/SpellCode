@@ -1,0 +1,5 @@
+# 007 Accio — cell = input byte (0 si no hay)
+# PRE: input=[65]
+# POST: cell=65 ('A')
+Accio
+AvadaKedavra

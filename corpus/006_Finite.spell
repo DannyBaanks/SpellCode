@@ -1,0 +1,8 @@
+# 006 Finite — loop end (if cell!=0 jump Protego)
+# PRE: cell=1, loop 1 vez
+# POST: cell=0 tras 1 iter
+Lumos
+Protego
+Nox
+Finite
+AvadaKedavra

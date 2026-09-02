@@ -1,0 +1,5 @@
+# 003 Depulso — head +=1
+# PRE: head=0
+# POST: head=1, cell[1]=0
+Depulso
+AvadaKedavra

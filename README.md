@@ -199,10 +199,65 @@ Sonorus
 
 Ver [examples/](examples/) para más ejemplos.
 
+## Ejecución
+
+```bash
+# Motor público
+python host.py corpus/001_Lumos.spell
+python host.py --list
+python host.py --all          # 17/17 corpus
+python host.py -c "Lumos Sonorus"
+
+# También vía CLI original
+spellcode examples/hello.spell
+spellcode --dump examples/contador.spell
+```
+
+### Corpus canónico `corpus/` — 1 hechizo → 1 ejemplo visible
+
+`corpus/` = **canonical spell examples** (`.spell` fuente + `.spellc` compilado). Cada `.spell`:
+
+- corresponde a **exactamente un hechizo**;
+- muestra la **forma mínima válida** de usarlo;
+- sirve como **referencia para humanos y LLMs**;
+- puede **ejecutarse directamente** con el host (`python host.py corpus/001_Lumos.spell`);
+- **NO sustituye** los tests semánticos.
+
+> $$ \boxed{ \text{1 hechizo} \rightarrow \text{1 ejemplo canónico visible} } $$
+
+Para hechizos complejos el ejemplo es una *flashcard ejecutable* con contexto:
+
+```spellcode
+# PRE: cell=3
+# POST: stack=[3]
+Lumos Lumos Lumos
+Aguamenti
+AvadaKedavra
+```
+
+```spellcode
+# demonstrate Protego loop
+Lumos
+Protego
+Nox
+Finite
+AvadaKedavra
+```
+
+Separación limpia:
+
+| Carpeta/archivo | Rol |
+|---|---|
+| `corpus/` | **cómo se usa** |
+| `tests/` | **cómo sabemos que funciona** |
+| `README` / `TESTURINGS.md` | **qué significa** |
+| `host.py` + `spellcode/` | **cómo se ejecuta** |
+
 ## Tests
 
 ```bash
 python -m unittest discover -s tests -v
+python host.py --all          # 17/17 corpus
 ```
 
 57 tests cubren:
@@ -231,7 +286,7 @@ traducidos a SpellCode con salida idéntica.
   es solo bucles (Protego/Finite) y break (Stupefy).
 - **Entrada limitada**: la entrada es una secuencia de bytes finita.
   Cuando se agota, Accio devuelve 0.
-- **No es interactivo**: la entrada se提供 toda al inicio; no hay input interactivo.
+- **No es interactivo**: la entrada se lee toda al inicio; no hay input interactivo.
 - **Pila finita**: 65 536 elementos máximo.
 - **Event-driven**: NO implementado. El diseño lo contempló pero se decidió
   que no aportaba al modelo computacional mínimo. La máquina es determinista.
@@ -261,10 +316,12 @@ spellcode/
   parser.py        — tokenizer + precompute_jumps (Protego/Finite)
   vm.py            — máquina virtual (tape, head, pc, stack, io)
   cli.py           — CLI ejecutable
+  host.py          — motor público todo-en-uno
+  corpus/          — 17 ejemplos canónicos (8 núcleo + 9 extensión)
   bf_compiler.py   — traductor Brainfuck → SpellCode (TESTURINGS)
 tests/
-  test_parser.py   — 16 tests de parser
-  test_vm.py       — 33 tests de VM
+  test_parser.py   — 17 tests de parser
+  test_vm.py       — 26 tests de VM
   test_spells.py   — 9 tests de tabla
   test_bf_compiler.py — 5 tests de TC
 examples/

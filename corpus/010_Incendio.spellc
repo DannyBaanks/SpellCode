@@ -1,0 +1,9 @@
+# 010 Incendio — pop stack + add to cell
+# PRE: cell=2, stack=[3]
+# POST: cell=5
+Lumos
+Lumos
+Aguamenti
+Lumos
+Incendio
+AvadaKedavra

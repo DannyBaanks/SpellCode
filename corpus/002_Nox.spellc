@@ -1,0 +1,6 @@
+# 002 Nox — dec cell[head] -=1 (mod 256)
+# PRE: cell=1
+# POST: cell=0
+Lumos
+Nox
+AvadaKedavra

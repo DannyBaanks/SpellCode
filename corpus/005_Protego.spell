@@ -1,0 +1,7 @@
+# 005 Protego — loop start (if cell==0 jump Finite)
+# PRE: cell=0
+# POST: salta bloque, cell=0
+Protego
+Lumos
+Finite
+AvadaKedavra
